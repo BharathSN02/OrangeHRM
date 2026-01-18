@@ -12,10 +12,10 @@ public class LoginTest extends BaseTest {
 	public void testValidLogin() throws InterruptedException {
 		LoginPage loginpage = new LoginPage(driver);
 		Thread.sleep(1000);
-		loginpage.enterUsername("BharathSN01");
+		loginpage.enterUsername("X");
 		//loginpage.enterUsername("Admin");
 		Thread.sleep(1000);
-		loginpage.enterPassword("bharathSN@123");
+		loginpage.enterPassword("Y");
 		//loginpage.enterPassword("admin123");
 		Thread.sleep(1000);
 		loginpage.clickLogin();
